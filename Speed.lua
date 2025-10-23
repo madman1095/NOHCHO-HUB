@@ -1,6 +1,8 @@
+-- Tutorial Script Hub
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl...)
 
-local Window = OrionLib:MakeWindow({Name = "NOHCHO HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "NOHCHO HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "NHHUB"})
 
 
 -- player tab
@@ -52,5 +54,7 @@ local OtherTab = Window:MakeTab({
 
 local Section = OtherTab:AddSection({
  Name = "Other"
-  end
+   end
 })
+
+OrionLib:Init()
